@@ -1,0 +1,23 @@
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+#drawing {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+
+  canvas {
+    display: block;
+    position: relative;
+    border:2px solid;
+    image-rendering: optimizeSpeed;
+    border-radius: 5%;
+  }
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+* {
+  transition: 0.1s;
+}

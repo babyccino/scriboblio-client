@@ -1,0 +1,18 @@
+.word-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  height: 400px;
+  width: 400px;
+
+  background: gray;
+}
+
+@media only screen and (max-width: 512px) {
+  .word-container {
+    height: 95%;
+    width: 95%;
+  }
+}

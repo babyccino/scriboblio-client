@@ -1,0 +1,29 @@
+.appContainer {
+  display: flex;
+  align-items: flex-end;
+  
+  .playerListContainer {
+    align-self: stretch;
+  }
+
+  .canvasTools {
+    & > .container {
+      height: 30px;
+      
+      display: grid;
+      grid-template-columns: 55% 45%;
+      
+      & > * {
+        justify-self: stretch;
+      }
+    }
+  }
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+* {
+  transition: 0.1s;
+}
